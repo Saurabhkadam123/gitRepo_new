@@ -95,6 +95,8 @@ class Customer1
 				float qtypur = scan.nextFloat();
 				ob[i]=new Bill1(itemcode, itemname,itemcat,unitrate,qtypur);
 				grossamt += ob[i].getTotamt();
+				ob[i]=new Bill1(itemcode, itemname,itemcat,unitrate,qtypur);
+				grossamt += ob[i].getTotamt();
 			}
 		}
 		
