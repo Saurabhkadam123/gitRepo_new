@@ -141,6 +141,10 @@ public class BillA2 {
 		String name=scan.nextLine();
 		System.out.println("Enter Customer Mobile Number ");
 		long mob=scan.nextLong();
+		System.out.println("Enter Customer Name ");
+		String name=scan.nextLine();
+		System.out.println("Enter Customer Mobile Number ");
+		long mob=scan.nextLong();
 	
 	    Customer1 c=new Customer1(name,mob);
 	    c.createbill();
