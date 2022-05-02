@@ -1,4 +1,4 @@
 class sim{
 	public static void main(String ar[])
-	{System.out.println("hello java\nhello java");
+	{System.out.println("ASDM lab-test work\nASDM lab-test work");
 }}
